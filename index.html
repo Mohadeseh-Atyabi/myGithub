@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Github</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./images/github-mark-white.png">
+</head>
+<body>
+    <!-- The entire container with low opacity -->
+    <div class="container">
+        <!-- Left side of container (containing information about user) -->
+        <div class="left_side">
+            <fieldset class="fieldset">
+                <div class="content_left">
+                    <!-- Image of user -->
+                    <img src="./images/user.png" alt="user image" class="user_image">
+                    <!-- Container for username, location & blog -->
+                    <div class="info">
+                        <p class="username">Username</p>
+                        <p class="blog">Blog</p>
+                        <p class="location">Location</p>
+                    </div>
+                    <!-- paragraph to show experiences of user -->
+                    <p class="experience">Experiences</p>
+                </div>
+            </fieldset>
+        </div>
+        <!-- Right side of container (containing modules to search for a user) -->
+        <div class="right_side">
+            <form class="form">
+                <fieldset class="fieldset">
+                    <!-- Container to search for username -->
+                    <div class="content_right">
+                        <input type="text" class="input_text" aria-label="Search">
+                        <input type="submit" class="button" value="Search">
+                        <!-- This part is for error (it displays when an error occurs) -->
+                        <div class="error">error</div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="./javascript/javascript.js"></script>
+</body>
+</html>
